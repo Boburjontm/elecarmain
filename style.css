@@ -1,0 +1,234 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #0A0A0B;
+}
+h1, h2, h3, h4, h5, h6, p{
+  list-style: none;
+}
+ul{
+    list-style: none;
+}
+.container{
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 16px;
+    max-width: 1240px;
+}
+.d-flex{
+    text-align: center;
+
+}
+/* End Normalize */
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+
+}
+.header__logo{
+    width: 71px;
+height: 22px;
+}
+.header__ul{
+    display: flex;
+    gap: 30px;
+    align-items: center;
+    
+
+}
+.home__attributs{
+    list-style: none;
+    text-decoration: none;
+    color: aliceblue;
+    padding: 20px;
+    font-family:Exo;
+}
+.home__attributs :hover{
+    color: cornflowerblue;
+}
+.hero__h1{
+    color: var(--white-color, #FFF);
+font-family: Exo;
+font-size: 36px;
+font-style: normal;
+font-weight: 600;
+line-height: 140%; 
+}
+.hero__h2{
+    color: var(--white-color, #FFF);
+
+font-family: Exo;
+font-size: 24px;
+font-style: normal;
+font-weight: 600;
+line-height: 140%; 
+}
+.hero__elec{
+    width: 107px;
+height: 22px;
+margin-left: 570px;
+/* justify-content: center; */
+}
+.hero__car{
+    margin-left: 430px;
+    margin-top: 48px;
+    width: 380px;
+height: 222.219px;
+}
+.hero__car_elements{
+    display: flex;
+    justify-content: center;
+    gap: 90px;
+    margin-right: 20px;
+    margin-top: 40px;
+    align-items: center;
+}
+.temprature{
+    align-items: center;
+    justify-content: center;
+}
+.temp__face{
+    text-align: center;
+    color: var(--white-color, #FFF);
+font-family: Exo;
+font-size: 24px;
+font-style: normal;
+font-weight: 600;
+line-height: 140%;
+}
+.temp__name{
+    text-align: center;
+    color: var(--text-color-light, #888B91);
+font-family: Exo;
+font-size: 13px;
+font-style: normal;
+font-weight: 400;
+line-height: 140%;
+margin-right: ; 
+}
+ .temprature_km{
+        color: var(--white-color, #FFF);
+    font-family: Exo;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-left: 30%;
+    }
+.temp__mil{
+    color: var(--text-color-light, #888B91);
+font-family: Exo;
+font-size: 13px;
+font-style: normal;
+font-weight: 400;
+line-height: 140%; 
+margin-right: 30px;
+}
+.temp__battery{
+    color: var(--text-color-light, #888B91);
+font-family: Exo;
+font-size: 13px;
+font-style: normal;
+font-weight: 400;
+line-height: 140%; 
+margin-right: 30px;
+}
+
+.temprature_img {
+    margin-left: 30%;
+}
+.hero__btn_img{
+    text-align: center;
+    margin-left: 565px;
+    margin-top: 50px;
+}
+/* Start hero2 */
+.hero2{
+    margin-top: 80px;
+    display: flex;
+    gap: 88px;
+}
+.hero2__img{
+    width: 680px;
+height: 320.141px;
+border-radius: 8px;
+border: none;
+/* position: absolute; */
+z-index: -10;
+}
+.small__div{
+    width: 197px;
+height: 104px;
+border-radius: 20px;
+background: rgba(255, 255, 255, 0.10);
+backdrop-filter: blur(8px);
+position: relative;
+bottom:70px;
+left: 385px;
+}
+.h2__h2{
+    text-align: center;
+    color: var(--white-color, #FFF);
+font-family: Exo;
+font-size: 20px;
+font-style: normal;
+font-weight: 600;
+line-height: 140%; 
+}
+.h2__page{
+    width: 157px;
+    color: var(--white-color, #FFF);
+    text-align: center;
+    font-family: Exo;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 140%; 
+    margin-left: 25px;
+}
+.h2__h1{
+    width: 201px;
+    color: var(--title-color, #F1F2F3);
+font-family: Exo;
+font-size: 24px;
+font-style: normal;
+font-weight: 600;
+line-height: 140%; 
+}
+.h2__page2{
+    width: 401px;
+    color: var(--text-color, #BABEC4);
+font-family: Exo;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 140%;
+margin-top: 24px;
+}
+.h2__btn{
+    display: inline-flex;
+padding: 2px 32px;
+flex-direction: column;
+align-items: flex-start;
+border-radius: 6px;
+background-color: #4177DC;
+margin-top: 48px;
+width: 160px;
+height: 60px;
+}
+.btn__page{
+    color: var(--white-color, #FFF);
+font-family: Exo;
+font-size: 16px;
+font-style: normal;
+font-weight: 500;
+line-height: 140%;
+width: 85px;
+height: 22px;
+/* position: relative;
+bottom: 7px;
+border: none; */
+}
+/* End hero2 */
